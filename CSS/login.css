@@ -1,0 +1,68 @@
+.form{
+    width: 300px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    /* position: absolute;
+    left: 50%;  
+    transform: translateX(-50% -); */
+}
+.form-menu {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+.form-menu label {
+    font-size: 14px;
+    color: #2e2e2e;
+    margin-bottom: 6px;
+}
+.form-menu input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.form-checkbox input {
+    width: 16px;
+    height: 16px;
+}
+.form-checkbox label {
+    font-size: 14px;
+    color: #2c2c2c;
+}
+.form-btn button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #9f2a2a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    margin-left: 100px;
+}
+.form-btn button:hover {
+    background-color: #752023;
+}
+.form h1{
+    color: #9f2a2a;
+    text-align: center;
+}
+.form new-account {
+    text-align: center;
+    margin-top: 10px;
+}
