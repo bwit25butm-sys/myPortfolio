@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uttam Khatri || Welcome to my website</title>
     <link rel="stylesheet" href="./CSS/index.css">
-    
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/logo/ghost.png" />
 </head>
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar">
+    <nav>
         <div class="logo">
-            <h1>UT</h1>
+            <h1>UK</h1>
         </div>
         
         <div class="menu">
             <a href="./html/home.html">Home</a>
             <a href="./html/about.html">About</a>
             <a href="./html/contact.html">Contact</a>
+            <a href="./html/login.html">Login</a>
             <div class="login">
-                <a href="./html/login.html"><button>Login</button></a>
+                <a href="./html/register.html"><button>Register</button></a>
             </div>
         </div>
+        <div class="mobile-menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="4" width="24" height="2" rx="1" fill="black"/>
+                        <rect y="11" width="24" height="2" rx="1" fill="black"/>
+                        <rect y="18" width="24" height="2" rx="1" fill="black"/>
+                    </svg>
+            </div>
     </nav>
     <!-- Hero Section -->
     <div class="banner_main">
@@ -33,7 +41,15 @@
             <a href="./html/about.html"><button>Contact Us</button></a>
         </div>
         <div class="banner_image">
-            <img src="./resourecs/image/image.jpg" alt="wallpaper">
+            <!-- <img src="./resources/image/image.jpg" alt="wallpaper"> -->
+             <video
+            src="./../resources/video/videoplayback.mp4"
+            autoplay
+            loop
+            muted
+            type="video/mp4"
+            style="border-radius: 10px;">
+        </video>
         </div>
     </div>
 </body>

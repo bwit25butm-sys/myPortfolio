@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.form {
+    max-width: 900px;
+    margin: 80px auto;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    overflow: hidden;
+}
+.general {
+    background-color: #edecec;
+    flex: 1;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.general h1 {
+    color: #6e2729;
+    margin-bottom: 25px;
+}
+.contact {
+    background: #6e2729;
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+}
+
+.contact h1 {
+    margin-bottom: 25px;
+}
+.form-menu,
+.form-menu-contact {
+    margin-bottom: 15px;
+}
+
+.form-name,
+.form-business,
+.form-country,
+.form-address {
+    display: flex;
+    gap: 20px;
+}
+input {
+    padding: 12px 14px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+.form-name .form-menu {
+    flex: 1;
+}
+.form-menu input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #6e2729;
+    background: transparent;
+}
+.form-menu input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(29, 156, 199, 0.3);
+    outline: none;
+    border-bottom: 2px solid #1d9cc7;
+}
+.form-menu-contact input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid black;
+}
+.form-menu-contact input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+.form-menu-contact input:focus {
+    border-color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+}
+.form-btn button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-btn button:hover {
+    background-color: #e6e6ff;
+}
+.form-btn {
+    margin-bottom: -5px;
+}
